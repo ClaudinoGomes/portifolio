@@ -1,0 +1,107 @@
+ /* ... outros estilos do seu elemento ... */
+ /** box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1), /* Sombra principal e mais próxima 
+    0 10px 20px rgba(0, 0, 0, 0.15), /* Sombra maior e mais suave 
+    0 20px 40px rgba(0, 0, 0, 0.2);  /* Sombra mais distante e mais escura 
+}*/
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.sombra_baixo{
+    box-shadow:  0 20px 40px #479255b5;
+}
+.nav_titulo{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav_titulo #nome{
+    position: relative;
+    left: -5rem;
+    font-size: 2rem;
+}
+
+.email{
+    position: relative;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.redes{
+    display: flex;
+    gap: 7px;
+    font-size: 45px;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.curriculo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.todo_perfil{
+    margin-top: 3rem;
+}
+.perfil{
+    position: relative;
+    left: -5rem;
+}
+
+.habilidades{
+    position: relative;
+    left: -30rem;
+}
+
+.textosobre{
+    left: 50%;
+    position: relative;
+    top: 2rem;
+}
+
+.local_habilidades{
+    display: flex;
+}
+
+.local_habilidades li{
+    flex-direction: row;
+}
+
+#naoquebra{
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;    
+   /* overflow: hidden;*/
+}
+
+
+
+
+footer{
+    background-color: black;
+    padding: 1rem  2rem;
+    text-align: center;
+    color: black;
+    background-size: contain;
+}
+
+.i-imagens{
+font-size: 4rem;
+}
+
+#idioma{
+    font-size: 2rem;
+}
+
